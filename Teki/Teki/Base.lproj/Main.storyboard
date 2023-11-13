@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Teki" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Mm-lN-5eo">
+                                <rect key="frame" x="69" y="700" width="275" height="57"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.95294117649999999" blue="0.37647058820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ET MOI ??">
+                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="37"/>
+                                    <color key="baseForegroundColor" red="0.96078431369999995" green="0.4549019608" blue="0.37486727510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="ChangeQuote" destination="BYZ-38-t0r" eventType="touchUpInside" id="JBO-Me-MI0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1T0-eG-Usx">
+                                <rect key="frame" x="69" y="700" width="275" height="57"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.95294117649999999" blue="0.37647058820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ET MOI ??">
+                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="37"/>
+                                    <color key="baseForegroundColor" red="0.96078431369999995" green="0.4549019608" blue="0.37486727510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="ChangeQuote" destination="BYZ-38-t0r" eventType="touchUpInside" id="6FW-I0-0zC"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hello je m'appelle henri" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flN-1E-pxf">
+                                <rect key="frame" x="16" y="59" width="361" height="645"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="66"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.45561105010000003" blue="0.37486727510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.95294117647058818" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="flN-1E-pxf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="1qi-Cb-7uI"/>
+                            <constraint firstItem="3Mm-lN-5eo" firstAttribute="leading" secondItem="1T0-eG-Usx" secondAttribute="leading" id="Fqh-hP-ZfN"/>
+                            <constraint firstItem="flN-1E-pxf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="GDq-gx-6CE"/>
+                            <constraint firstItem="3Mm-lN-5eo" firstAttribute="trailing" secondItem="1T0-eG-Usx" secondAttribute="trailing" id="R7M-gV-viw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="flN-1E-pxf" secondAttribute="bottom" constant="114" id="Wa4-Db-2jE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Mm-lN-5eo" secondAttribute="trailing" constant="49" id="gyP-KB-xEV"/>
+                            <constraint firstItem="3Mm-lN-5eo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="69" id="pDd-ow-vH8"/>
+                            <constraint firstItem="3Mm-lN-5eo" firstAttribute="baseline" secondItem="1T0-eG-Usx" secondAttribute="baseline" id="uuQ-B2-9bb"/>
+                            <constraint firstItem="3Mm-lN-5eo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="641" id="yzC-Nv-CUr"/>
+                            <constraint firstItem="flN-1E-pxf" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="zFm-Xf-grC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="quoteLabel" destination="flN-1E-pxf" id="AYF-Yc-gBB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+</document>
